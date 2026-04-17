@@ -1,14 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "config:recommended",
     ":dependencyDashboard",
-    "github>tx-pts-dai/renovate-config:group-github-actions-minor-patch",
-    "github>tx-pts-dai/renovate-config:group-terraform-minor-patch",
-    "github>tx-pts-dai/renovate-config:group-pre-commit-minor-patch",
-    "github>tx-pts-dai/renovate-config:group-kaas",
-    "github>tx-pts-dai/renovate-config:custom-managers.json5",
-    "github>tx-pts-dai/renovate-config:actions-org-migration.json",
-    "github>tx-pts-dai/renovate-config:exclude.json"
+    "github>rbapst-tamedia/renovate-config:group-github-actions-minor-patch",
+    "github>rbapst-tamedia/renovate-config:group-terraform-minor-patch",
+    "github>rbapst-tamedia/renovate-config:group-pre-commit-minor-patch",
+    "github>rbapst-tamedia/renovate-config:group-kaas",
+    "github>rbapst-tamedia/renovate-config:custom-managers.json5",
+    "github>rbapst-tamedia/renovate-config:actions-org-migration.json",
+    "github>rbapst-tamedia/renovate-config:exclude.json"
   ],
   "branchPrefix": "renovate/",
   "timezone": "Europe/Zurich",
